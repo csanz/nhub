@@ -1,0 +1,26 @@
+{
+    "name":         "ntweet",
+    "description":  "Twitter CLI tool using node.js",
+    "keywords":     ["twitter", "cli", "github", "tools"],
+    "author":       "Christian Sanz <chris@geekli.st>",
+    "version":      "0.0.1",
+    "licenses":     [{
+      "type":       "MIT",
+      "url":        "http://github.com/csanz/ntweet/raw/master/LICENSE"
+    }],
+    "repository": {
+      "type": "git",
+      "url": "http://github.com/csanz/ntweet.git" 
+    },
+    "engines":      {
+      "node":       ">=0.4.0"
+    },
+    "dependencies": {
+        "optimist": ">= 0.1.5"
+      , "oauth": "0.9.0"
+    },
+    "main" : "./lib/nyam",
+    "bin":          {
+      "nyam":       "./lib/cli.js"
+    }
+}
